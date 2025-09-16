@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg-primary: #000000;
+    --bg-secondary: #111111;
+    --bg-tertiary: #222222;
+    --text-primary: #ffffff;
+    --text-secondary: #cccccc;
+    --border-color: rgba(255, 255, 255, 0.2);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: var(--bg-primary, #000000);
+}
+
+body {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+gdm-live-audio {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
